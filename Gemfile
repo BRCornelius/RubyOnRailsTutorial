@@ -56,8 +56,8 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
-  gem 'minitest',                 '5.10.3'
-  gem 'minitest-reporters',       '1.1.14'
+  gem 'minitest'
+  gem 'minitest-reporters'
 end
 
 group :production do
